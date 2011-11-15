@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE341A7B13CEC2EF005DDC9D /* ViewForImageClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE341A7A13CEC2EF005DDC9D /* ViewForImageClass.m */; };
+		CE8029D813CD55D100F54D47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8029D713CD55D100F54D47 /* UIKit.framework */; };
+		CE8029DA13CD55D100F54D47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8029D913CD55D100F54D47 /* Foundation.framework */; };
+		CE8029DC13CD55D100F54D47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8029DB13CD55D100F54D47 /* CoreGraphics.framework */; };
+		CE8029E213CD55D100F54D47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE8029E013CD55D100F54D47 /* InfoPlist.strings */; };
+		CE8029E513CD55D100F54D47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8029E413CD55D100F54D47 /* main.m */; };
+		CE8029E813CD55D100F54D47 /* XMLParserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8029E713CD55D100F54D47 /* XMLParserAppDelegate.m */; };
+		CE8029EB13CD55D100F54D47 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8029E913CD55D100F54D47 /* MainWindow.xib */; };
+		CE8029EE13CD55D100F54D47 /* XMLParserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8029ED13CD55D100F54D47 /* XMLParserViewController.m */; };
+		CE8029F113CD55D100F54D47 /* XMLParserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8029EF13CD55D100F54D47 /* XMLParserViewController.xib */; };
+		CE8029F813CD55D100F54D47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8029D713CD55D100F54D47 /* UIKit.framework */; };
+		CE8029F913CD55D100F54D47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8029D913CD55D100F54D47 /* Foundation.framework */; };
+		CE8029FA13CD55D100F54D47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8029DB13CD55D100F54D47 /* CoreGraphics.framework */; };
+		CE802A0213CD55D200F54D47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE802A0013CD55D200F54D47 /* InfoPlist.strings */; };
+		CE802A0513CD55D200F54D47 /* XMLParserTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CE802A0413CD55D200F54D47 /* XMLParserTests.h */; };
+		CE802A0713CD55D200F54D47 /* XMLParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE802A0613CD55D200F54D47 /* XMLParserTests.m */; };
+		CE802A1513CD569200F54D47 /* ParserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE802A1413CD569200F54D47 /* ParserModel.m */; };
+		CE802A3013CEA52100F54D47 /* ImageShell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE802A2F13CEA52000F54D47 /* ImageShell.m */; };
+		CE802A3213CEB23400F54D47 /* ViewForImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE802A3113CEB23300F54D47 /* ViewForImage.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE8029FB13CD55D200F54D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8029CA13CD55D000F54D47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE8029D213CD55D100F54D47;
+			remoteInfo = XMLParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE341A7913CEC2EF005DDC9D /* ViewForImageClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewForImageClass.h; sourceTree = "<group>"; };
+		CE341A7A13CEC2EF005DDC9D /* ViewForImageClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewForImageClass.m; sourceTree = "<group>"; };
+		CE8029D313CD55D100F54D47 /* XMLParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMLParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8029D713CD55D100F54D47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE8029D913CD55D100F54D47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE8029DB13CD55D100F54D47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE8029DF13CD55D100F54D47 /* XMLParser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XMLParser-Info.plist"; sourceTree = "<group>"; };
+		CE8029E113CD55D100F54D47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE8029E313CD55D100F54D47 /* XMLParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMLParser-Prefix.pch"; sourceTree = "<group>"; };
+		CE8029E413CD55D100F54D47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE8029E613CD55D100F54D47 /* XMLParserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLParserAppDelegate.h; sourceTree = "<group>"; };
+		CE8029E713CD55D100F54D47 /* XMLParserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLParserAppDelegate.m; sourceTree = "<group>"; };
+		CE8029EA13CD55D100F54D47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CE8029EC13CD55D100F54D47 /* XMLParserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLParserViewController.h; sourceTree = "<group>"; };
+		CE8029ED13CD55D100F54D47 /* XMLParserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLParserViewController.m; sourceTree = "<group>"; };
+		CE8029F013CD55D100F54D47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XMLParserViewController.xib; sourceTree = "<group>"; };
+		CE8029F713CD55D100F54D47 /* XMLParserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMLParserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8029FF13CD55D200F54D47 /* XMLParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XMLParserTests-Info.plist"; sourceTree = "<group>"; };
+		CE802A0113CD55D200F54D47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE802A0313CD55D200F54D47 /* XMLParserTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMLParserTests-Prefix.pch"; sourceTree = "<group>"; };
+		CE802A0413CD55D200F54D47 /* XMLParserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLParserTests.h; sourceTree = "<group>"; };
+		CE802A0613CD55D200F54D47 /* XMLParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLParserTests.m; sourceTree = "<group>"; };
+		CE802A1313CD569200F54D47 /* ParserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParserModel.h; sourceTree = "<group>"; };
+		CE802A1413CD569200F54D47 /* ParserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParserModel.m; sourceTree = "<group>"; };
+		CE802A2E13CEA51F00F54D47 /* ImageShell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageShell.h; sourceTree = "<group>"; };
+		CE802A2F13CEA52000F54D47 /* ImageShell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageShell.m; sourceTree = "<group>"; };
+		CE802A3113CEB23300F54D47 /* ViewForImage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewForImage.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE8029D013CD55D100F54D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8029D813CD55D100F54D47 /* UIKit.framework in Frameworks */,
+				CE8029DA13CD55D100F54D47 /* Foundation.framework in Frameworks */,
+				CE8029DC13CD55D100F54D47 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8029F313CD55D100F54D47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8029F813CD55D100F54D47 /* UIKit.framework in Frameworks */,
+				CE8029F913CD55D100F54D47 /* Foundation.framework in Frameworks */,
+				CE8029FA13CD55D100F54D47 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE8029C813CD55D000F54D47 = {
+			isa = PBXGroup;
+			children = (
+				CE8029DD13CD55D100F54D47 /* XMLParser */,
+				CE8029FD13CD55D200F54D47 /* XMLParserTests */,
+				CE8029D613CD55D100F54D47 /* Frameworks */,
+				CE8029D413CD55D100F54D47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8029D413CD55D100F54D47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8029D313CD55D100F54D47 /* XMLParser.app */,
+				CE8029F713CD55D100F54D47 /* XMLParserTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8029D613CD55D100F54D47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8029D713CD55D100F54D47 /* UIKit.framework */,
+				CE8029D913CD55D100F54D47 /* Foundation.framework */,
+				CE8029DB13CD55D100F54D47 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE8029DD13CD55D100F54D47 /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				CE802A2E13CEA51F00F54D47 /* ImageShell.h */,
+				CE802A2F13CEA52000F54D47 /* ImageShell.m */,
+				CE802A1313CD569200F54D47 /* ParserModel.h */,
+				CE802A1413CD569200F54D47 /* ParserModel.m */,
+				CE8029E613CD55D100F54D47 /* XMLParserAppDelegate.h */,
+				CE8029E713CD55D100F54D47 /* XMLParserAppDelegate.m */,
+				CE8029E913CD55D100F54D47 /* MainWindow.xib */,
+				CE8029EC13CD55D100F54D47 /* XMLParserViewController.h */,
+				CE8029ED13CD55D100F54D47 /* XMLParserViewController.m */,
+				CE8029EF13CD55D100F54D47 /* XMLParserViewController.xib */,
+				CE341A7913CEC2EF005DDC9D /* ViewForImageClass.h */,
+				CE341A7A13CEC2EF005DDC9D /* ViewForImageClass.m */,
+				CE802A3113CEB23300F54D47 /* ViewForImage.xib */,
+				CE8029DE13CD55D100F54D47 /* Supporting Files */,
+			);
+			path = XMLParser;
+			sourceTree = "<group>";
+		};
+		CE8029DE13CD55D100F54D47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE8029DF13CD55D100F54D47 /* XMLParser-Info.plist */,
+				CE8029E013CD55D100F54D47 /* InfoPlist.strings */,
+				CE8029E313CD55D100F54D47 /* XMLParser-Prefix.pch */,
+				CE8029E413CD55D100F54D47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE8029FD13CD55D200F54D47 /* XMLParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE802A0413CD55D200F54D47 /* XMLParserTests.h */,
+				CE802A0613CD55D200F54D47 /* XMLParserTests.m */,
+				CE8029FE13CD55D200F54D47 /* Supporting Files */,
+			);
+			path = XMLParserTests;
+			sourceTree = "<group>";
+		};
+		CE8029FE13CD55D200F54D47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE8029FF13CD55D200F54D47 /* XMLParserTests-Info.plist */,
+				CE802A0013CD55D200F54D47 /* InfoPlist.strings */,
+				CE802A0313CD55D200F54D47 /* XMLParserTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE8029D213CD55D100F54D47 /* XMLParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE802A0A13CD55D200F54D47 /* Build configuration list for PBXNativeTarget "XMLParser" */;
+			buildPhases = (
+				CE8029CF13CD55D100F54D47 /* Sources */,
+				CE8029D013CD55D100F54D47 /* Frameworks */,
+				CE8029D113CD55D100F54D47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMLParser;
+			productName = XMLParser;
+			productReference = CE8029D313CD55D100F54D47 /* XMLParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE8029F613CD55D100F54D47 /* XMLParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE802A0D13CD55D200F54D47 /* Build configuration list for PBXNativeTarget "XMLParserTests" */;
+			buildPhases = (
+				CE8029F213CD55D100F54D47 /* Sources */,
+				CE8029F313CD55D100F54D47 /* Frameworks */,
+				CE8029F413CD55D100F54D47 /* Resources */,
+				CE8029F513CD55D100F54D47 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8029FC13CD55D200F54D47 /* PBXTargetDependency */,
+			);
+			name = XMLParserTests;
+			productName = XMLParserTests;
+			productReference = CE8029F713CD55D100F54D47 /* XMLParserTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8029CA13CD55D000F54D47 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CE8029CD13CD55D000F54D47 /* Build configuration list for PBXProject "XMLParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE8029C813CD55D000F54D47;
+			productRefGroup = CE8029D413CD55D100F54D47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE8029D213CD55D100F54D47 /* XMLParser */,
+				CE8029F613CD55D100F54D47 /* XMLParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE8029D113CD55D100F54D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8029E213CD55D100F54D47 /* InfoPlist.strings in Resources */,
+				CE8029EB13CD55D100F54D47 /* MainWindow.xib in Resources */,
+				CE8029F113CD55D100F54D47 /* XMLParserViewController.xib in Resources */,
+				CE802A3213CEB23400F54D47 /* ViewForImage.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8029F413CD55D100F54D47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE802A0213CD55D200F54D47 /* InfoPlist.strings in Resources */,
+				CE802A0513CD55D200F54D47 /* XMLParserTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE8029F513CD55D100F54D47 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8029CF13CD55D100F54D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8029E513CD55D100F54D47 /* main.m in Sources */,
+				CE8029E813CD55D100F54D47 /* XMLParserAppDelegate.m in Sources */,
+				CE8029EE13CD55D100F54D47 /* XMLParserViewController.m in Sources */,
+				CE802A1513CD569200F54D47 /* ParserModel.m in Sources */,
+				CE802A3013CEA52100F54D47 /* ImageShell.m in Sources */,
+				CE341A7B13CEC2EF005DDC9D /* ViewForImageClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8029F213CD55D100F54D47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE802A0713CD55D200F54D47 /* XMLParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE8029FC13CD55D200F54D47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE8029D213CD55D100F54D47 /* XMLParser */;
+			targetProxy = CE8029FB13CD55D200F54D47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE8029E013CD55D100F54D47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8029E113CD55D100F54D47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE8029E913CD55D100F54D47 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8029EA13CD55D100F54D47 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CE8029EF13CD55D100F54D47 /* XMLParserViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8029F013CD55D100F54D47 /* en */,
+			);
+			name = XMLParserViewController.xib;
+			sourceTree = "<group>";
+		};
+		CE802A0013CD55D200F54D47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE802A0113CD55D200F54D47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE802A0813CD55D200F54D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE802A0913CD55D200F54D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CE802A0B13CD55D200F54D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMLParser/XMLParser-Prefix.pch";
+				INFOPLIST_FILE = "XMLParser/XMLParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE802A0C13CD55D200F54D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMLParser/XMLParser-Prefix.pch";
+				INFOPLIST_FILE = "XMLParser/XMLParser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CE802A0E13CD55D200F54D47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XMLParser.app/XMLParser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMLParserTests/XMLParserTests-Prefix.pch";
+				INFOPLIST_FILE = "XMLParserTests/XMLParserTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CE802A0F13CD55D200F54D47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XMLParser.app/XMLParser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMLParserTests/XMLParserTests-Prefix.pch";
+				INFOPLIST_FILE = "XMLParserTests/XMLParserTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8029CD13CD55D000F54D47 /* Build configuration list for PBXProject "XMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE802A0813CD55D200F54D47 /* Debug */,
+				CE802A0913CD55D200F54D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE802A0A13CD55D200F54D47 /* Build configuration list for PBXNativeTarget "XMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE802A0B13CD55D200F54D47 /* Debug */,
+				CE802A0C13CD55D200F54D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE802A0D13CD55D200F54D47 /* Build configuration list for PBXNativeTarget "XMLParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE802A0E13CD55D200F54D47 /* Debug */,
+				CE802A0F13CD55D200F54D47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8029CA13CD55D000F54D47 /* Project object */;
+}
